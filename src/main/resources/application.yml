@@ -1,6 +1,8 @@
 micronaut:
   application:
     name: mnExternalClientCamunda
+  server:
+    port: 8088
 camunda.external-client.base-url: http://localhost:8080/engine-rest
 netty:
   default:
