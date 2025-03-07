@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: mnExternalClientCamunda
+camunda.external-client.base-url: http://localhost:8080/engine-rest
+netty:
+  default:
+    allocator:
+      max-order: 3
