@@ -27,6 +27,14 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
+
+    testImplementation("io.micronaut.test:micronaut-test-junit5")
+    testImplementation("org.assertj:assertj-core")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    testRuntimeOnly("io.micronaut:micronaut-http-server-netty")
+    testRuntimeOnly("org.yaml:snakeyaml")
+    testRuntimeOnly("jakarta.xml.bind:jakarta.xml.bind-api:4.0.2")
+
 }
 
 
